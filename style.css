@@ -1,0 +1,23 @@
+body {
+    padding-top: 50px;
+}
+
+.dirInfo {
+    padding: 40px 15px;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.table-hover > tbody > tr.active > td,
+.table-hover > tbody > tr.active:hover > td {
+    background-color: #337ab7;
+    color: white;
+}
+
+a.list-group-item:hover {
+    color: #337ab7;
+    cursor: pointer;
+}
